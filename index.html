@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>African United Coin | Home</title>
+  <meta name="description" content="African United Coin — one continent, one vision, one digital future.">
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              auc: {
+                green: '#0A8F5A',
+                emerald: '#0F6B4B',
+                gold: '#D4AF37',
+                dark: '#06130E',
+                panel: '#0B1E17'
+              }
+            },
+            boxShadow: {
+              glow: '0 0 40px rgba(212,175,55,.18)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body {
+        background:
+          radial-gradient(circle at top right, rgba(10,143,90,.10), transparent 30%),
+          radial-gradient(circle at bottom left, rgba(212,175,55,.08), transparent 25%),
+          #06130E;
+      }
+      .grid-bg {
+        background-image:
+          linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+    </style>
+
+</head>
+<body class="text-white antialiased">
+
+<header class="sticky top-0 z-50 border-b border-white/10 bg-auc-dark/90 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3">
+      <div class="flex h-10 w-10 items-center justify-center rounded-full border border-auc-gold/50 bg-white/5 font-bold text-auc-gold">AUC</div>
+      <div>
+        <div class="font-semibold text-white">African United Coin</div>
+        <div class="text-xs text-white/50">One continent. One digital vision.</div>
+      </div>
+    </a>
+
+    <button id="menuBtn" class="rounded-lg border border-white/10 p-2 text-white md:hidden" aria-label="Open navigation">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <nav class="hidden items-center gap-8 md:flex">
+      <a href="index.html" class="text-sm text-white/70 transition hover:text-white">Home</a>
+      <a href="about.html" class="text-sm text-white/70 transition hover:text-white">About</a>
+      <a href="contact.html" class="text-sm text-white/70 transition hover:text-white">Contact</a>
+      <a href="contact.html" class="rounded-full bg-auc-gold px-5 py-2.5 text-sm font-semibold text-auc-dark transition hover:brightness-110">Get in touch</a>
+    </nav>
+  </div>
+
+  <div id="mobileMenu" class="hidden border-t border-white/10 px-6 py-4 md:hidden">
+    <div class="flex flex-col gap-4">
+      <a href="index.html" class="text-white/80">Home</a>
+      <a href="about.html" class="text-white/80">About</a>
+      <a href="contact.html" class="text-white/80">Contact</a>
+    </div>
+  </div>
+</header>
+
+
+<main>
+  <section class="grid-bg overflow-hidden">
+    <div class="mx-auto grid min-h-[82vh] max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:px-8">
+      <div>
+        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-auc-gold/30 bg-auc-gold/10 px-4 py-2 text-sm text-auc-gold">
+          African United Coin • AUC
+        </div>
+        <h1 class="max-w-4xl text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+          One Continent.<br>
+          <span class="text-auc-gold">One Digital Vision.</span>
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-white/65">
+          African United Coin is a digital asset concept focused on accessibility, innovation and stronger economic connectivity across African markets.
+        </p>
+        <div class="mt-10 flex flex-wrap gap-4">
+          <a href="#about" class="rounded-full bg-auc-gold px-6 py-3 font-semibold text-auc-dark transition hover:brightness-110">Discover AUC</a>
+          <a href="about.html" class="rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:bg-white/5">Learn more</a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -inset-8 rounded-full bg-auc-green/10 blur-3xl"></div>
+        <div class="relative mx-auto flex aspect-square max-w-md items-center justify-center rounded-full border border-auc-gold/30 bg-gradient-to-br from-auc-panel to-auc-dark shadow-glow">
+          <div class="flex h-64 w-64 items-center justify-center rounded-full border border-auc-gold/40 bg-white/[.03]">
+            <div class="text-center">
+              <div class="text-7xl font-black text-auc-gold">AUC</div>
+              <div class="mt-3 text-sm uppercase tracking-[.35em] text-white/45">African United Coin</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="border-y border-white/10 bg-white/[.02]">
+    <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[.25em] text-auc-gold">About AUC</p>
+        <h2 class="mt-4 text-3xl font-bold sm:text-4xl">Building digital connections across Africa</h2>
+        <p class="mt-5 text-lg leading-8 text-white/60">
+          The AUC project is built around a long-term vision of a more connected African digital economy. The goal is to create a recognizable and accessible digital asset brand with pan-African reach.
+        </p>
+      </div>
+
+      <div class="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div class="rounded-2xl border border-white/10 bg-auc-panel/70 p-7">
+                <div class="mb-5 text-2xl text-auc-gold">01</div>
+                <h3 class="text-lg font-semibold">Pan-African Vision</h3>
+                <p class="mt-3 text-sm leading-6 text-white/55">A digital concept centered on connectivity across African communities and markets.</p>
+              </div><div class="rounded-2xl border border-white/10 bg-auc-panel/70 p-7">
+                <div class="mb-5 text-2xl text-auc-gold">02</div>
+                <h3 class="text-lg font-semibold">Borderless</h3>
+                <p class="mt-3 text-sm leading-6 text-white/55">Designed for a digital environment where participation is not limited by national borders.</p>
+              </div><div class="rounded-2xl border border-white/10 bg-auc-panel/70 p-7">
+                <div class="mb-5 text-2xl text-auc-gold">03</div>
+                <h3 class="text-lg font-semibold">Accessible</h3>
+                <p class="mt-3 text-sm leading-6 text-white/55">Focused on simplicity, usability and making digital assets easier to understand.</p>
+              </div><div class="rounded-2xl border border-white/10 bg-auc-panel/70 p-7">
+                <div class="mb-5 text-2xl text-auc-gold">04</div>
+                <h3 class="text-lg font-semibold">Transparent</h3>
+                <p class="mt-3 text-sm leading-6 text-white/55">Clear communication, responsible development and understandable project information.</p>
+              </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+    <div class="rounded-3xl border border-auc-gold/20 bg-gradient-to-br from-auc-panel to-auc-dark p-8 shadow-glow sm:p-12">
+      <div class="grid gap-10 lg:grid-cols-[1.2fr_.8fr] lg:items-center">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[.25em] text-auc-gold">Our Vision</p>
+          <h2 class="mt-4 text-4xl font-bold sm:text-5xl">54 countries.<br>1 continent.<br>1 digital vision.</h2>
+        </div>
+        <div>
+          <p class="text-lg leading-8 text-white/60">
+            AUC aims to represent a modern, digital-first African identity while supporting a broader conversation about technology, connectivity and economic participation.
+          </p>
+          <a href="about.html" class="mt-6 inline-flex font-semibold text-auc-gold hover:underline">Explore the project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-white/10 bg-white/[.02]">
+    <div class="mx-auto max-w-4xl px-6 py-20 text-center lg:px-8">
+      <h2 class="text-3xl font-bold sm:text-4xl">Be part of the African digital future</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-white/60">Interested in the project, partnerships or future developments? Get in touch with the AUC team.</p>
+      <div class="mt-8 flex justify-center gap-4">
+        <a href="about.html" class="rounded-full border border-white/15 px-6 py-3 font-semibold hover:bg-white/5">Learn about AUC</a>
+        <a href="contact.html" class="rounded-full bg-auc-gold px-6 py-3 font-semibold text-auc-dark hover:brightness-110">Contact us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="border-t border-white/10">
+  <div class="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between lg:px-8">
+    <div>
+      <div class="font-semibold text-white">African United Coin</div>
+      <p class="mt-2 max-w-xl text-sm text-white/50">
+        A showcase website for the African United Coin project. Nothing on this website constitutes financial or investment advice.
+      </p>
+    </div>
+    <div class="flex gap-6 text-sm text-white/60">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="about.html" class="hover:text-white">About</a>
+      <a href="contact.html" class="hover:text-white">Contact</a>
+    </div>
+  </div>
+  <div class="border-t border-white/5 px-6 py-5 text-center text-xs text-white/40">
+    © 2026 African United Coin. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn');
+  const menu = document.getElementById('mobileMenu');
+  if (btn && menu) {
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+  }
+</script>
+
+</body>
+</html>

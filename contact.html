@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>African United Coin | Contact</title>
+  <meta name="description" content="Contact the African United Coin team.">
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              auc: {
+                green: '#0A8F5A',
+                emerald: '#0F6B4B',
+                gold: '#D4AF37',
+                dark: '#06130E',
+                panel: '#0B1E17'
+              }
+            },
+            boxShadow: {
+              glow: '0 0 40px rgba(212,175,55,.18)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body {
+        background:
+          radial-gradient(circle at top right, rgba(10,143,90,.10), transparent 30%),
+          radial-gradient(circle at bottom left, rgba(212,175,55,.08), transparent 25%),
+          #06130E;
+      }
+      .grid-bg {
+        background-image:
+          linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+        background-size: 36px 36px;
+      }
+    </style>
+
+</head>
+<body class="text-white antialiased">
+
+<header class="sticky top-0 z-50 border-b border-white/10 bg-auc-dark/90 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+    <a href="index.html" class="flex items-center gap-3">
+      <div class="flex h-10 w-10 items-center justify-center rounded-full border border-auc-gold/50 bg-white/5 font-bold text-auc-gold">AUC</div>
+      <div>
+        <div class="font-semibold text-white">African United Coin</div>
+        <div class="text-xs text-white/50">One continent. One digital vision.</div>
+      </div>
+    </a>
+
+    <button id="menuBtn" class="rounded-lg border border-white/10 p-2 text-white md:hidden" aria-label="Open navigation">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <nav class="hidden items-center gap-8 md:flex">
+      <a href="index.html" class="text-sm text-white/70 transition hover:text-white">Home</a>
+      <a href="about.html" class="text-sm text-white/70 transition hover:text-white">About</a>
+      <a href="contact.html" class="text-sm text-white/70 transition hover:text-white">Contact</a>
+      <a href="contact.html" class="rounded-full bg-auc-gold px-5 py-2.5 text-sm font-semibold text-auc-dark transition hover:brightness-110">Get in touch</a>
+    </nav>
+  </div>
+
+  <div id="mobileMenu" class="hidden border-t border-white/10 px-6 py-4 md:hidden">
+    <div class="flex flex-col gap-4">
+      <a href="index.html" class="text-white/80">Home</a>
+      <a href="about.html" class="text-white/80">About</a>
+      <a href="contact.html" class="text-white/80">Contact</a>
+    </div>
+  </div>
+</header>
+
+
+<main>
+  <section class="grid-bg border-b border-white/10">
+    <div class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+      <p class="text-sm font-semibold uppercase tracking-[.25em] text-auc-gold">Contact</p>
+      <h1 class="mt-4 max-w-4xl text-5xl font-bold tracking-tight sm:text-6xl">Talk to the AUC team.</h1>
+      <p class="mt-6 max-w-2xl text-lg leading-8 text-white/60">
+        For partnerships, project information, community enquiries or general questions, send us a message below.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
+    <div>
+      <p class="text-sm font-semibold uppercase tracking-[.25em] text-auc-gold">Get in touch</p>
+      <h2 class="mt-4 text-3xl font-bold">We'd like to hear from you.</h2>
+      <p class="mt-4 max-w-md leading-7 text-white/55">
+        This demo form is front-end only. Connect it later to Formspree, Resend, a Django API, or another backend service.
+      </p>
+
+      <div class="mt-10 space-y-6">
+        <div>
+          <div class="text-sm text-white/40">Email</div>
+          <div class="mt-1 font-medium">contact@africanunitedcoin.com</div>
+        </div>
+        <div>
+          <div class="text-sm text-white/40">Project</div>
+          <div class="mt-1 font-medium">African United Coin (AUC)</div>
+        </div>
+        <div>
+          <div class="text-sm text-white/40">Availability</div>
+          <div class="mt-1 font-medium">Partnerships • Community • General enquiries</div>
+        </div>
+      </div>
+    </div>
+
+    <form class="rounded-3xl border border-white/10 bg-auc-panel/70 p-8 shadow-glow" onsubmit="event.preventDefault(); document.getElementById('formMsg').classList.remove('hidden'); this.reset();">
+      <div class="grid gap-6 sm:grid-cols-2">
+        <div>
+          <label for="name" class="mb-2 block text-sm text-white/70">Name</label>
+          <input id="name" name="name" type="text" required class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 outline-none transition placeholder:text-white/25 focus:border-auc-gold/50" placeholder="Your name">
+        </div>
+        <div>
+          <label for="email" class="mb-2 block text-sm text-white/70">Email</label>
+          <input id="email" name="email" type="email" required class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 outline-none transition placeholder:text-white/25 focus:border-auc-gold/50" placeholder="you@example.com">
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <label for="subject" class="mb-2 block text-sm text-white/70">Subject</label>
+        <input id="subject" name="subject" type="text" required class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 outline-none transition placeholder:text-white/25 focus:border-auc-gold/50" placeholder="How can we help?">
+      </div>
+
+      <div class="mt-6">
+        <label for="message" class="mb-2 block text-sm text-white/70">Message</label>
+        <textarea id="message" name="message" rows="7" required class="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 outline-none transition placeholder:text-white/25 focus:border-auc-gold/50" placeholder="Write your message..."></textarea>
+      </div>
+
+      <button type="submit" class="mt-6 w-full rounded-xl bg-auc-gold px-6 py-3.5 font-semibold text-auc-dark transition hover:brightness-110">
+        Send message
+      </button>
+
+      <div id="formMsg" class="hidden mt-4 rounded-xl border border-auc-green/30 bg-auc-green/10 p-4 text-sm text-green-300">
+        Demo submitted successfully. Connect this form to your backend to receive real messages.
+      </div>
+    </form>
+  </section>
+
+  <section class="border-t border-white/10 bg-white/[.02]">
+    <div class="mx-auto max-w-5xl px-6 py-16 text-center lg:px-8">
+      <h2 class="text-2xl font-bold">Important notice</h2>
+      <p class="mx-auto mt-4 max-w-3xl text-sm leading-7 text-white/50">
+        African United Coin is presented here as a project concept. Cryptocurrency and digital assets can involve significant financial and regulatory risk. This website does not provide financial, investment, tax or legal advice.
+      </p>
+    </div>
+  </section>
+</main>
+
+
+<footer class="border-t border-white/10">
+  <div class="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between lg:px-8">
+    <div>
+      <div class="font-semibold text-white">African United Coin</div>
+      <p class="mt-2 max-w-xl text-sm text-white/50">
+        A showcase website for the African United Coin project. Nothing on this website constitutes financial or investment advice.
+      </p>
+    </div>
+    <div class="flex gap-6 text-sm text-white/60">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="about.html" class="hover:text-white">About</a>
+      <a href="contact.html" class="hover:text-white">Contact</a>
+    </div>
+  </div>
+  <div class="border-t border-white/5 px-6 py-5 text-center text-xs text-white/40">
+    © 2026 African United Coin. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn');
+  const menu = document.getElementById('mobileMenu');
+  if (btn && menu) {
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+  }
+</script>
+
+</body>
+</html>
